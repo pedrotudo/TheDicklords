@@ -18,16 +18,22 @@ public class TriggerActions : MonoBehaviour
     public string EventName;
     public string EventAmount;
 
-    private void OnEnable()
+    Interactable _parent;
+
+    public void Initialize(Interactable interactable)
     {
-        Interactable parent = GetComponentInParent<Interactable>();
-        GameObject collObject = parent.CollObject;
+        _parent = interactable;
+    }
+
+    public void ApplyAction()
+    {
+        GameObject collObject = _parent.CollObject;
         switch (MyAction)
         {
             case TriggerActionType.NONE:
                 break;
             case TriggerActionType.DESTROY_MYSELF:  
-                Destroy(parent.gameObject);
+                Destroy(_parent.gameObject);
                 break;
             case TriggerActionType.DESTROY_COLL_OBJECT:
                 Destroy(collObject);

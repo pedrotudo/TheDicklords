@@ -1,3 +1,5 @@
+using UnityEngine;
+using System.Collections;
 using System;
 
 public static class GameEvents
@@ -8,3 +10,4 @@ public static class GameEvents
         OnCustomEvent?.Invoke(name, amount);
     }
 }
+
