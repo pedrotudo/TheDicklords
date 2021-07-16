@@ -7,10 +7,8 @@ public class LevelHandler : MonoBehaviour
     public static LevelHandler Instace;
     private void Awake()
     {
-        if (Instace == null)
-        {
-            Instace = this;
-        }
+        Instace = this;
+
         Debug.Log("Awake LevelHandler");
     }
 }

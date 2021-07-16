@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
@@ -9,20 +10,16 @@ public class Game : MonoBehaviour
     private void Awake()
     {
         Debug.Log("Awake Game");
-        if (Instace == null)
-        {
-            Instace = this;
-        }
-
+        Instace = this;
         Player.OnPlayerIsDead += OnPlayerIsDeadBehaviour;
-
+        MainMenuPanel.OnStartPressed += LoadLevel;
     }
 
     private void OnDestroy()
     {
         Debug.Log("Destroy Game");
-
         Player.OnPlayerIsDead -= OnPlayerIsDeadBehaviour;
+        MainMenuPanel.OnStartPressed -= LoadLevel;
     }
 
     private void OnPlayerIsDeadBehaviour()
@@ -39,5 +36,10 @@ public class Game : MonoBehaviour
     private void GameEnd()
     {
         Debug.Log("End game");
+    }
+
+    private void LoadLevel()
+    {
+        SceneManager.LoadScene("SampleScene");
     }
 }
