@@ -3179,7 +3179,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 0}
+  m_BackGroundColor: {r: 0.735849, g: 0.735849, b: 0.735849, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -5928,6 +5928,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1521966604, guid: 5845782f67944a44c853f75652cf177b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6893614532757348075, guid: 5845782f67944a44c853f75652cf177b, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -7011,9 +7015,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1108576854, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1108576855, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.4049206
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129272067, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+      propertyPath: SpineParent
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.size
@@ -7039,6 +7059,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 963194227}
+    - target: {fileID: 2096996699, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5602044077629623247, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: m_Name
       value: Enemy_KillPlayer 2
@@ -8640,6 +8664,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 963194227}
+    - target: {fileID: 2096996699, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5602044077629623247, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: m_Name
       value: Enemy_KillPlayer

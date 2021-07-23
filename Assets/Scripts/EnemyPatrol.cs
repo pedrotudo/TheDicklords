@@ -7,8 +7,13 @@ public class EnemyPatrol : MonoBehaviour
 	public Transform[] Targets;
 	public int NextTarget;
 	public float Speed = 3f;
+	public float SpeedUpMultiplier = 2f;
+	public string HitNameToSpeedUp = "Player";
+	public Animator Anim;
+	public Transform SpineParent;
 	Transform _myObject;
 	float _startingSpeed;
+	bool _dash = false;
 
 	public Vector3 _lastPosition, _direction, _localDirection;
 	void Start()
@@ -20,26 +25,44 @@ public class EnemyPatrol : MonoBehaviour
 	void Update()
 	{
 		_direction = (transform.position - _lastPosition).normalized;
-		_localDirection = transform.InverseTransformDirection(_direction);
 		_lastPosition = transform.position;
 
 		RaycastHit hit;
-		// Does the ray intersect any objects excluding the player layer
 		if (Physics.Raycast(transform.position, _direction, out hit, Mathf.Infinity))
 		{
 			var hitName = hit.transform.gameObject.name;
 			Debug.Log($"hitting {hitName}");
-			if (hitName == "Player")
+			if (hitName == HitNameToSpeedUp)
 			{
-				Speed = _startingSpeed * 2;
+				_dash = true;
+				Speed = _startingSpeed * SpeedUpMultiplier;
 			}
 			else
 			{
+				_dash = false;
 				Speed = _startingSpeed;
-			}
+            }
+        }
+
+		if (_direction.x > 0)
+		{
+			SpineParent.localScale = new Vector3(1, 1, 1);
+		}
+		else 
+		{
+			SpineParent.localScale = new Vector3(-1, 1, 1);
 		}
 
-		MoveObject();
+		if (_dash)
+		{
+			Anim.Play("dash");
+		}
+		else
+		{
+			Anim.Play("walk");
+		}
+
+        MoveObject();
 	}
 
 	void MoveObject()
