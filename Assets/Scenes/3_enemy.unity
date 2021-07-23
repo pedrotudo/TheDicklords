@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 927227262802861579, guid: 09e5895092d10d5479e66f781f80f582, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 927227262802861579, guid: 09e5895092d10d5479e66f781f80f582, type: 3}
       propertyPath: m_LocalPosition.x
@@ -420,9 +420,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &5525927
 GameObject:
   m_ObjectHideFlags: 0
@@ -1193,9 +1193,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &14497427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1767,9 +1767,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &32848998
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,9 +2092,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &42376898
 GameObject:
   m_ObjectHideFlags: 0
@@ -4693,9 +4693,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &91409351
 GameObject:
   m_ObjectHideFlags: 0
@@ -5211,9 +5211,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &106320181
 GameObject:
   m_ObjectHideFlags: 0
@@ -5641,9 +5641,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &127692662
 GameObject:
   m_ObjectHideFlags: 0
@@ -6743,9 +6743,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &154881576
 GameObject:
   m_ObjectHideFlags: 0
@@ -6871,9 +6871,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &158651299
 GameObject:
   m_ObjectHideFlags: 0
@@ -7305,9 +7305,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &167982605
 GameObject:
   m_ObjectHideFlags: 0
@@ -7390,6 +7390,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &168224230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 168224231}
+  m_Layer: 0
+  m_Name: 1 (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &168224231
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168224230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.3500004, y: 0, z: 28.669998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &169525484
 GameObject:
   m_ObjectHideFlags: 0
@@ -7630,9 +7660,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &175818416
 GameObject:
   m_ObjectHideFlags: 0
@@ -8004,9 +8034,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &183351031
 GameObject:
   m_ObjectHideFlags: 0
@@ -8791,38 +8821,6 @@ MonoBehaviour:
   MyAction: 1
   EventName: 
   EventAmount: 
---- !u!1 &202525763
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 202525764}
-  m_Layer: 0
-  m_Name: Patrol (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &202525764
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 202525763}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13, y: 0, z: 27.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1584270584}
-  - {fileID: 1526160257}
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &202833183
 GameObject:
   m_ObjectHideFlags: 0
@@ -11013,9 +11011,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &260044990
 GameObject:
   m_ObjectHideFlags: 0
@@ -11305,9 +11303,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &270608530
 GameObject:
   m_ObjectHideFlags: 0
@@ -12610,9 +12608,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!4 &310465875
 Transform:
   m_ObjectHideFlags: 0
@@ -12670,9 +12668,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &316770588
 GameObject:
   m_ObjectHideFlags: 0
@@ -14478,9 +14476,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &365657834
 GameObject:
   m_ObjectHideFlags: 0
@@ -14606,9 +14604,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &368732216
 GameObject:
   m_ObjectHideFlags: 0
@@ -14931,9 +14929,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &373802980
 GameObject:
   m_ObjectHideFlags: 0
@@ -14977,9 +14975,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &381330739
 GameObject:
   m_ObjectHideFlags: 0
@@ -15611,7 +15609,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388446866}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8, y: 0, z: 0}
+  m_LocalPosition: {x: 2.15, y: 0, z: 0.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1145244163}
@@ -15660,9 +15658,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &396517271
 GameObject:
   m_ObjectHideFlags: 0
@@ -16296,6 +16294,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &407868903 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 568485635, guid: 5845782f67944a44c853f75652cf177b, type: 3}
+  m_PrefabInstance: {fileID: 1452788705}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &409130684
 GameObject:
   m_ObjectHideFlags: 0
@@ -17025,9 +17028,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &442037910
 GameObject:
   m_ObjectHideFlags: 0
@@ -17071,9 +17074,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &442127640
 GameObject:
   m_ObjectHideFlags: 0
@@ -18078,9 +18081,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!4 &464648066 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1129272067, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
@@ -18175,9 +18178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &473156469
 GameObject:
   m_ObjectHideFlags: 0
@@ -18303,9 +18306,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &484196586
 GameObject:
   m_ObjectHideFlags: 0
@@ -20464,9 +20467,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &553466180
 GameObject:
   m_ObjectHideFlags: 0
@@ -21106,9 +21109,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!4 &564998574
 Transform:
   m_ObjectHideFlags: 0
@@ -22396,6 +22399,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &600629071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 600629072}
+  m_Layer: 0
+  m_Name: 1 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &600629072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600629071}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.35, y: 0, z: 7.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &605080596
 GameObject:
   m_ObjectHideFlags: 0
@@ -23076,9 +23109,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &625791526
 GameObject:
   m_ObjectHideFlags: 0
@@ -23168,9 +23201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &630756730
 GameObject:
   m_ObjectHideFlags: 0
@@ -23296,9 +23329,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &631568047
 GameObject:
   m_ObjectHideFlags: 0
@@ -23391,9 +23424,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &635511542
 GameObject:
   m_ObjectHideFlags: 0
@@ -23995,9 +24028,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &647120733
 GameObject:
   m_ObjectHideFlags: 0
@@ -24653,9 +24686,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &672922664
 GameObject:
   m_ObjectHideFlags: 0
@@ -24945,9 +24978,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &681644988
 GameObject:
   m_ObjectHideFlags: 0
@@ -25030,6 +25063,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &687195359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 687195360}
+  m_Layer: 0
+  m_Name: 1 (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &687195360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687195359}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.1000004, y: 0, z: 7.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &687766098
 GameObject:
   m_ObjectHideFlags: 0
@@ -25385,9 +25448,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &702268040
 GameObject:
   m_ObjectHideFlags: 0
@@ -25734,9 +25797,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &708606056
 GameObject:
   m_ObjectHideFlags: 0
@@ -26573,9 +26636,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &731331531
 GameObject:
   m_ObjectHideFlags: 0
@@ -27738,9 +27801,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &764127700
 GameObject:
   m_ObjectHideFlags: 0
@@ -28995,9 +29058,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &788019755
 GameObject:
   m_ObjectHideFlags: 0
@@ -29284,39 +29347,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
---- !u!1 &794096497
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 794096498}
-  m_Layer: 0
-  m_Name: 1 (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &794096498
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 794096497}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1675981918}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1001 &794789950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29343,23 +29376,23 @@ PrefabInstance:
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[1]
       value: 
-      objectReference: {fileID: 1244322825}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[2]
       value: 
-      objectReference: {fileID: 1669636376}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[3]
       value: 
-      objectReference: {fileID: 1800339315}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[4]
       value: 
-      objectReference: {fileID: 1669636376}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[5]
       value: 
-      objectReference: {fileID: 1244322825}
+      objectReference: {fileID: 0}
     - target: {fileID: 2096996699, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -29378,7 +29411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2242376591006169379, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: MyAction
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5602044077629623247, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: m_Name
@@ -30572,9 +30605,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &839350405
 GameObject:
   m_ObjectHideFlags: 0
@@ -31189,9 +31222,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &853405661
 GameObject:
   m_ObjectHideFlags: 0
@@ -31235,9 +31268,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &857877282
 GameObject:
   m_ObjectHideFlags: 0
@@ -31985,9 +32018,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &877945027
 GameObject:
   m_ObjectHideFlags: 0
@@ -32638,9 +32671,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &895489026
 GameObject:
   m_ObjectHideFlags: 0
@@ -33009,9 +33042,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &900518935
 GameObject:
   m_ObjectHideFlags: 0
@@ -33055,9 +33088,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &903016012
 GameObject:
   m_ObjectHideFlags: 0
@@ -33140,6 +33173,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &903512363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 903512364}
+  m_Layer: 0
+  m_Name: 1 (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &903512364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903512363}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.349999, y: 0, z: 36.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &905282463
 GameObject:
   m_ObjectHideFlags: 0
@@ -33183,9 +33246,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &908854537
 GameObject:
   m_ObjectHideFlags: 0
@@ -33708,9 +33771,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &914946225
 GameObject:
   m_ObjectHideFlags: 0
@@ -33918,9 +33981,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &918994911
 GameObject:
   m_ObjectHideFlags: 0
@@ -35539,9 +35602,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &972176182
 GameObject:
   m_ObjectHideFlags: 0
@@ -37167,6 +37230,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013055486}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1017960764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1017960765}
+  m_Layer: 0
+  m_Name: 1 (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1017960765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017960764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.8999996, y: 0, z: 34.67}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1019415083
 GameObject:
   m_ObjectHideFlags: 0
@@ -37853,9 +37946,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1030973337
 GameObject:
   m_ObjectHideFlags: 0
@@ -39179,9 +39272,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1065318276
 GameObject:
   m_ObjectHideFlags: 0
@@ -39366,9 +39459,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1073222024
 GameObject:
   m_ObjectHideFlags: 0
@@ -39579,7 +39672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5908184958239021112, guid: 7005b8781b21e1648b4b617249673a05, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 5908184958239021112, guid: 7005b8781b21e1648b4b617249673a05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40155,9 +40248,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1086502250
 GameObject:
   m_ObjectHideFlags: 0
@@ -40787,9 +40880,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1110148733
 GameObject:
   m_ObjectHideFlags: 0
@@ -41781,6 +41874,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132539232}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &1133132323 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1521966605, guid: 5845782f67944a44c853f75652cf177b, type: 3}
+  m_PrefabInstance: {fileID: 1452788705}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1136614123
 GameObject:
   m_ObjectHideFlags: 0
@@ -42052,9 +42150,21 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 388446867}
-  - {fileID: 1244322825}
-  - {fileID: 1669636376}
-  - {fileID: 1800339315}
+  - {fileID: 1629474450}
+  - {fileID: 1221859685}
+  - {fileID: 1317524779}
+  - {fileID: 600629072}
+  - {fileID: 687195360}
+  - {fileID: 1914095961}
+  - {fileID: 1381789893}
+  - {fileID: 1863848033}
+  - {fileID: 1979097251}
+  - {fileID: 1017960765}
+  - {fileID: 1305700627}
+  - {fileID: 168224231}
+  - {fileID: 2067337919}
+  - {fileID: 903512364}
+  - {fileID: 2068249444}
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -42556,9 +42666,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1158131231
 GameObject:
   m_ObjectHideFlags: 0
@@ -44524,6 +44634,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1221859684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1221859685}
+  m_Layer: 0
+  m_Name: 1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1221859685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221859684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.85, y: 0, z: -2.58}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1221978036
 GameObject:
   m_ObjectHideFlags: 0
@@ -44831,9 +44971,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1230982936
 GameObject:
   m_ObjectHideFlags: 0
@@ -45326,36 +45466,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1244322824
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1244322825}
-  m_Layer: 0
-  m_Name: 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1244322825
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1244322824}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1145244163}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1247099247
 GameObject:
   m_ObjectHideFlags: 0
@@ -45563,9 +45673,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1258283459
 GameObject:
   m_ObjectHideFlags: 0
@@ -45609,9 +45719,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1258301881
 GameObject:
   m_ObjectHideFlags: 0
@@ -45655,9 +45765,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1259857459
 GameObject:
   m_ObjectHideFlags: 0
@@ -46485,9 +46595,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1285468014
 GameObject:
   m_ObjectHideFlags: 0
@@ -46531,9 +46641,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1287152639
 GameObject:
   m_ObjectHideFlags: 0
@@ -47783,7 +47893,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1304659075
+--- !u!1 &1305700626
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47791,27 +47901,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1304659076}
+  - component: {fileID: 1305700627}
   m_Layer: 0
-  m_Name: 1
+  m_Name: 1 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1304659076
+--- !u!4 &1305700627
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1304659075}
+  m_GameObject: {fileID: 1305700626}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.3500004, y: 0, z: 34.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1675981918}
-  m_RootOrder: 0
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1307608810
 GameObject:
@@ -48115,6 +48225,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1317524778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1317524779}
+  m_Layer: 0
+  m_Name: 1 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1317524779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317524778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.35, y: 0, z: -2.58}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1317590444
 GameObject:
   m_ObjectHideFlags: 0
@@ -48848,9 +48988,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1340002406
 GameObject:
   m_ObjectHideFlags: 0
@@ -49288,9 +49428,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1359172893
 GameObject:
   m_ObjectHideFlags: 0
@@ -49334,9 +49474,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1359224671
 GameObject:
   m_ObjectHideFlags: 0
@@ -49672,9 +49812,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1366108558
 GameObject:
   m_ObjectHideFlags: 0
@@ -49754,9 +49894,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1368531089
 GameObject:
   m_ObjectHideFlags: 0
@@ -50272,6 +50412,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380390978}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1381789892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1381789893}
+  m_Layer: 0
+  m_Name: 1 (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1381789893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381789892}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.4, y: 0, z: 18.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1383151229
 GameObject:
   m_ObjectHideFlags: 0
@@ -50315,9 +50485,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1385247934
 GameObject:
   m_ObjectHideFlags: 0
@@ -50361,9 +50531,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1387116165
 GameObject:
   m_ObjectHideFlags: 0
@@ -50407,9 +50577,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1387229781
 GameObject:
   m_ObjectHideFlags: 0
@@ -50617,9 +50787,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1395108970
 GameObject:
   m_ObjectHideFlags: 0
@@ -51145,9 +51315,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1402376043
 GameObject:
   m_ObjectHideFlags: 0
@@ -51752,9 +51922,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1418998058
 GameObject:
   m_ObjectHideFlags: 0
@@ -52673,9 +52843,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1437420312
 GameObject:
   m_ObjectHideFlags: 0
@@ -52834,9 +53004,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1440667951
 GameObject:
   m_ObjectHideFlags: 0
@@ -53466,7 +53636,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6893614532757348074, guid: 5845782f67944a44c853f75652cf177b, type: 3}
-      propertyPath: m_Enabled
+      propertyPath: speed
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6893614532757348075, guid: 5845782f67944a44c853f75652cf177b, type: 3}
@@ -53644,9 +53814,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1463869523
 GameObject:
   m_ObjectHideFlags: 0
@@ -53982,9 +54152,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1476673588
 GameObject:
   m_ObjectHideFlags: 0
@@ -55065,9 +55235,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1492795175
 GameObject:
   m_ObjectHideFlags: 0
@@ -55990,9 +56160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1516641568
 GameObject:
   m_ObjectHideFlags: 0
@@ -56269,9 +56439,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1520428016
 GameObject:
   m_ObjectHideFlags: 0
@@ -56564,36 +56734,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1526160256
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1526160257}
-  m_Layer: 0
-  m_Name: 1 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1526160257
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526160256}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 202525764}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1529200719
 GameObject:
   m_ObjectHideFlags: 0
@@ -56683,9 +56823,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1531550389
 GameObject:
   m_ObjectHideFlags: 0
@@ -57021,9 +57161,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1535924378
 GameObject:
   m_ObjectHideFlags: 0
@@ -57722,33 +57862,37 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.size
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[0]
       value: 
-      objectReference: {fileID: 1627572766}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[1]
       value: 
-      objectReference: {fileID: 794096498}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[2]
       value: 
-      objectReference: {fileID: 1304659076}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[3]
       value: 
-      objectReference: {fileID: 2064493057}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[4]
       value: 
-      objectReference: {fileID: 1669636376}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[5]
       value: 
-      objectReference: {fileID: 1244322825}
+      objectReference: {fileID: 0}
     - target: {fileID: 2096996699, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -57767,7 +57911,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2242376591006169379, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: MyAction
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5602044077629623247, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: m_Name
@@ -57819,6 +57963,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+--- !u!1 &1550745904 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5602044077629623247, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+  m_PrefabInstance: {fileID: 1550745903}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1550745905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550745904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe725851bc9ebf94781b13683f7d7c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InvertInput: 0
+  speed: 10
+  Anim: {fileID: 1550745908}
+  SpineParent: {fileID: 1550745907}
+  _lastPosition: {x: 0, y: 0, z: 0}
+  _direction: {x: 0, y: 0, z: 0}
+--- !u!54 &1550745906
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550745904}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!4 &1550745907 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1129272067, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+  m_PrefabInstance: {fileID: 1550745903}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1550745908 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2096996697, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+  m_PrefabInstance: {fileID: 1550745903}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1554051258
 GameObject:
   m_ObjectHideFlags: 0
@@ -57862,9 +58055,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1554273432
 GameObject:
   m_ObjectHideFlags: 0
@@ -58131,9 +58324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1558390047
 GameObject:
   m_ObjectHideFlags: 0
@@ -59407,9 +59600,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1578010121
 GameObject:
   m_ObjectHideFlags: 0
@@ -59439,9 +59632,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!4 &1578010123
 Transform:
   m_ObjectHideFlags: 0
@@ -59454,36 +59647,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1149997318}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1584270583
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1584270584}
-  m_Layer: 0
-  m_Name: 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1584270584
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584270583}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 202525764}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1584521036
@@ -59529,9 +59692,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1588153817
 GameObject:
   m_ObjectHideFlags: 0
@@ -59575,9 +59738,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1595364447
 GameObject:
   m_ObjectHideFlags: 0
@@ -60075,7 +60238,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 854459443765736209, guid: 6ba624a70e24f9848aaa0796a25ba179, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 854459443765736209, guid: 6ba624a70e24f9848aaa0796a25ba179, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60166,9 +60329,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1609531814
 GameObject:
   m_ObjectHideFlags: 0
@@ -60435,9 +60598,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1616890452
 GameObject:
   m_ObjectHideFlags: 0
@@ -61219,36 +61382,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626773030}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1627572765
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1627572766}
-  m_Layer: 0
-  m_Name: 1 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1627572766
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1627572765}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.5, y: 0, z: 13.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1675981918}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1627917723
 GameObject:
   m_ObjectHideFlags: 0
@@ -61364,6 +61497,36 @@ MonoBehaviour:
   Exit: {fileID: 1931559370}
   Repeat: 0
   CollObject: {fileID: 0}
+--- !u!1 &1629474449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1629474450}
+  m_Layer: 0
+  m_Name: 1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1629474450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629474449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.85, y: 0, z: 0.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631721044
 GameObject:
   m_ObjectHideFlags: 0
@@ -61737,9 +61900,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1642670855
 GameObject:
   m_ObjectHideFlags: 0
@@ -62130,9 +62293,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1669201042
 GameObject:
   m_ObjectHideFlags: 0
@@ -62176,39 +62339,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
---- !u!1 &1669636375
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1669636376}
-  m_Layer: 0
-  m_Name: 3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1669636376
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669636375}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8, y: 0, z: -2.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1145244163}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1670157600
 GameObject:
   m_ObjectHideFlags: 0
@@ -62252,9 +62385,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1671408142
 GameObject:
   m_ObjectHideFlags: 0
@@ -62674,40 +62807,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1675981917
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1675981918}
-  m_Layer: 0
-  m_Name: Patrol (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1675981918
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1675981917}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1, y: 0, z: 3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1304659076}
-  - {fileID: 2064493057}
-  - {fileID: 1627572766}
-  - {fileID: 794096498}
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1678272511
 GameObject:
   m_ObjectHideFlags: 0
@@ -63253,9 +63352,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1694371791
 GameObject:
   m_ObjectHideFlags: 0
@@ -63558,9 +63657,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1706171452
 GameObject:
   m_ObjectHideFlags: 0
@@ -63965,9 +64064,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1721060868
 GameObject:
   m_ObjectHideFlags: 0
@@ -64011,9 +64110,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1728194244
 GameObject:
   m_ObjectHideFlags: 0
@@ -64057,9 +64156,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1731545971
 GameObject:
   m_ObjectHideFlags: 0
@@ -64185,9 +64284,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1734652771
 GameObject:
   m_ObjectHideFlags: 0
@@ -64559,9 +64658,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1743396773
 GameObject:
   m_ObjectHideFlags: 0
@@ -64919,9 +65018,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!4 &1754536888
 Transform:
   m_ObjectHideFlags: 0
@@ -65344,6 +65443,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1766163420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6893614532757348080, guid: 5845782f67944a44c853f75652cf177b, type: 3}
+  m_PrefabInstance: {fileID: 1452788705}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1766163421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766163420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37191398b14c7404da19b8ddd4766fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Targets:
+  - {fileID: 388446867}
+  - {fileID: 1629474450}
+  - {fileID: 1221859685}
+  - {fileID: 1317524779}
+  - {fileID: 600629072}
+  - {fileID: 687195360}
+  - {fileID: 1914095961}
+  - {fileID: 1381789893}
+  - {fileID: 1863848033}
+  - {fileID: 1979097251}
+  - {fileID: 1017960765}
+  - {fileID: 1305700627}
+  - {fileID: 168224231}
+  - {fileID: 2067337919}
+  - {fileID: 903512364}
+  - {fileID: 2068249444}
+  NextTarget: 0
+  Speed: 10
+  SpeedUpMultiplier: 0
+  HitNameToSpeedUp: Player
+  Anim: {fileID: 1133132323}
+  SpineParent: {fileID: 407868903}
+  _lastPosition: {x: 0, y: 0, z: 0}
+  _direction: {x: 0, y: 0, z: 0}
+  _localDirection: {x: 0, y: 0, z: 0}
 --- !u!1 &1766198392
 GameObject:
   m_ObjectHideFlags: 0
@@ -66663,36 +66805,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1800339314
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1800339315}
-  m_Layer: 0
-  m_Name: 4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1800339315
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1800339314}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.5, y: 0, z: -2.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1145244163}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1806124892
 GameObject:
   m_ObjectHideFlags: 0
@@ -67074,9 +67186,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1818665295
 GameObject:
   m_ObjectHideFlags: 0
@@ -67455,9 +67567,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1831449679
 GameObject:
   m_ObjectHideFlags: 0
@@ -67956,9 +68068,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!4 &1848096176
 Transform:
   m_ObjectHideFlags: 0
@@ -68193,9 +68305,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1861663825
 GameObject:
   m_ObjectHideFlags: 0
@@ -68373,6 +68485,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862410279}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1863848032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1863848033}
+  m_Layer: 0
+  m_Name: 1 (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1863848033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863848032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.4, y: 0, z: 27.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1864247323
 GameObject:
   m_ObjectHideFlags: 0
@@ -68531,9 +68673,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1869224886
 GameObject:
   m_ObjectHideFlags: 0
@@ -69033,9 +69175,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1886896731
 GameObject:
   m_ObjectHideFlags: 0
@@ -69161,9 +69303,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1890721874
 GameObject:
   m_ObjectHideFlags: 0
@@ -69781,6 +69923,36 @@ MonoBehaviour:
   Exit: {fileID: 1766198394}
   Repeat: 0
   CollObject: {fileID: 0}
+--- !u!1 &1914095960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1914095961}
+  m_Layer: 0
+  m_Name: 1 (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1914095961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914095960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.4, y: 0, z: 7.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1921439365
 GameObject:
   m_ObjectHideFlags: 0
@@ -70221,9 +70393,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1938810140
 GameObject:
   m_ObjectHideFlags: 0
@@ -71012,9 +71184,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1954037109
 GameObject:
   m_ObjectHideFlags: 0
@@ -71609,9 +71781,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1977096035
 GameObject:
   m_ObjectHideFlags: 0
@@ -71871,6 +72043,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1979097250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1979097251}
+  m_Layer: 0
+  m_Name: 1 (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1979097251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979097250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.8999996, y: 0, z: 27.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1979241582
 GameObject:
   m_ObjectHideFlags: 0
@@ -71914,9 +72116,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &1980029466
 GameObject:
   m_ObjectHideFlags: 0
@@ -72663,33 +72865,37 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.size
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[0]
       value: 
-      objectReference: {fileID: 1304659076}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[1]
       value: 
-      objectReference: {fileID: 2064493057}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[2]
       value: 
-      objectReference: {fileID: 1627572766}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[3]
       value: 
-      objectReference: {fileID: 794096498}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[4]
       value: 
-      objectReference: {fileID: 1669636376}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[5]
       value: 
-      objectReference: {fileID: 1244322825}
+      objectReference: {fileID: 0}
     - target: {fileID: 2096996699, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -72708,7 +72914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2242376591006169379, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: MyAction
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5602044077629623247, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: m_Name
@@ -72760,6 +72966,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+--- !u!1 &1991336961 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5602044077629623247, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+  m_PrefabInstance: {fileID: 1991336960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1991336962 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1129272067, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+  m_PrefabInstance: {fileID: 1991336960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1991336963 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2096996697, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+  m_PrefabInstance: {fileID: 1991336960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1991336964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991336961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe725851bc9ebf94781b13683f7d7c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InvertInput: 0
+  speed: 10
+  Anim: {fileID: 1991336963}
+  SpineParent: {fileID: 1991336962}
+  _lastPosition: {x: 0, y: 0, z: 0}
+  _direction: {x: 0, y: 0, z: 0}
+--- !u!54 &1991336965
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991336961}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &1994361798
 GameObject:
   m_ObjectHideFlags: 0
@@ -74091,9 +74346,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &2057420382
 GameObject:
   m_ObjectHideFlags: 0
@@ -74350,7 +74605,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2064493056
+--- !u!1 &2067337918
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -74358,27 +74613,57 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2064493057}
+  - component: {fileID: 2067337919}
   m_Layer: 0
-  m_Name: 1 (1)
+  m_Name: 1 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2064493057
+--- !u!4 &2067337919
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2064493056}
+  m_GameObject: {fileID: 2067337918}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 13.5}
+  m_LocalPosition: {x: -12.349999, y: 0, z: 28.669998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1675981918}
-  m_RootOrder: 1
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2068249443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2068249444}
+  m_Layer: 0
+  m_Name: 1 (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2068249444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068249443}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.349999, y: 0, z: 36.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145244163}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2069184938
 GameObject:
@@ -74505,9 +74790,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &2080196070
 GameObject:
   m_ObjectHideFlags: 0
@@ -74761,9 +75046,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &2088947858
 GameObject:
   m_ObjectHideFlags: 0
@@ -75696,9 +75981,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &2112163879
 GameObject:
   m_ObjectHideFlags: 0
@@ -75742,9 +76027,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &2116810510
 GameObject:
   m_ObjectHideFlags: 0
@@ -75839,33 +76124,37 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[0]
       value: 
-      objectReference: {fileID: 1584270584}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[1]
       value: 
-      objectReference: {fileID: 1526160257}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[2]
       value: 
-      objectReference: {fileID: 1627572766}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[3]
       value: 
-      objectReference: {fileID: 794096498}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[4]
       value: 
-      objectReference: {fileID: 1669636376}
+      objectReference: {fileID: 0}
     - target: {fileID: 1606663131, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: Targets.Array.data[5]
       value: 
-      objectReference: {fileID: 1244322825}
+      objectReference: {fileID: 0}
     - target: {fileID: 2096996699, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -75884,7 +76173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2242376591006169379, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: MyAction
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5602044077629623247, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: m_Name
@@ -75936,6 +76225,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+--- !u!1 &2118310935 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5602044077629623247, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+  m_PrefabInstance: {fileID: 2118310934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2118310936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118310935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe725851bc9ebf94781b13683f7d7c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InvertInput: 0
+  speed: 10
+  Anim: {fileID: 2118310939}
+  SpineParent: {fileID: 2118310938}
+  _lastPosition: {x: 0, y: 0, z: 0}
+  _direction: {x: 0, y: 0, z: 0}
+--- !u!54 &2118310937
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118310935}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!4 &2118310938 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1129272067, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+  m_PrefabInstance: {fileID: 2118310934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2118310939 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2096996697, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+  m_PrefabInstance: {fileID: 2118310934}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2119008182
 GameObject:
   m_ObjectHideFlags: 0
@@ -76628,9 +76966,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &2144449440
 GameObject:
   m_ObjectHideFlags: 0
@@ -76851,9 +77189,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f6f2acb9132e4f91e717bdc6bb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAction: 3
-  EventName: life
-  EventAmount: -25
+  MyAction: 0
+  EventName: 
+  EventAmount: 
 --- !u!1 &2146955764
 GameObject:
   m_ObjectHideFlags: 0
@@ -77018,7 +77356,7 @@ PrefabInstance:
       objectReference: {fileID: 2147318038212374204}
     - target: {fileID: 2147318038309340839, guid: bb0f2397890882b42b38a89508fa1bf2, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2147318038309340839, guid: bb0f2397890882b42b38a89508fa1bf2, type: 3}
       propertyPath: m_LocalPosition.x
