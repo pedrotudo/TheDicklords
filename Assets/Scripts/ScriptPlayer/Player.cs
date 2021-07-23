@@ -11,6 +11,7 @@ public class PlayerModel
 
 public class Player : MonoBehaviour
 {
+    public bool InvertInput = false;
     private PlayerModel _playerModel;
     public PlayerModel PlayerModel;
     public int HitPoints => _playerModel.HP;
@@ -70,6 +71,11 @@ public class Player : MonoBehaviour
 
         var h = Input.GetAxisRaw("Horizontal");
         var v = Input.GetAxisRaw("Vertical");
+        if (InvertInput)
+        {
+            v *= -1;
+            h *= -1;
+        }
         Vector3 velocity = new Vector3(h, 0, v).normalized * speed;
 
         _rb.velocity = velocity;
