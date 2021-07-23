@@ -1380,7 +1380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &57066172
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,7 +1426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &61433450
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,7 +1472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &65206930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1810,7 +1810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &67116718
 GameObject:
   m_ObjectHideFlags: 0
@@ -2033,7 +2033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &72559752
 GameObject:
   m_ObjectHideFlags: 0
@@ -2586,7 +2586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &80278817
 GameObject:
   m_ObjectHideFlags: 0
@@ -2773,7 +2773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &81860583
 GameObject:
   m_ObjectHideFlags: 0
@@ -4979,7 +4979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &145520550
 GameObject:
   m_ObjectHideFlags: 0
@@ -5189,7 +5189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &146802529
 GameObject:
   m_ObjectHideFlags: 0
@@ -5775,7 +5775,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6607,7 +6607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &192268337
 GameObject:
   m_ObjectHideFlags: 0
@@ -7835,7 +7835,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8394,7 +8394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &225284852
 GameObject:
   m_ObjectHideFlags: 0
@@ -8617,7 +8617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &227955212
 GameObject:
   m_ObjectHideFlags: 0
@@ -10051,7 +10051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &272969959
 GameObject:
   m_ObjectHideFlags: 0
@@ -10311,7 +10311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &280394845
 GameObject:
   m_ObjectHideFlags: 0
@@ -10744,7 +10744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &297713413
 GameObject:
   m_ObjectHideFlags: 0
@@ -11046,7 +11046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &306628053
 GameObject:
   m_ObjectHideFlags: 0
@@ -12633,7 +12633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &363404516
 GameObject:
   m_ObjectHideFlags: 0
@@ -12799,7 +12799,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14089,7 +14089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &403660733
 GameObject:
   m_ObjectHideFlags: 0
@@ -15044,7 +15044,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &433618937
 GameObject:
   m_ObjectHideFlags: 0
@@ -15300,7 +15300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &445920157
 GameObject:
   m_ObjectHideFlags: 0
@@ -15346,7 +15346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &449962005
 GameObject:
   m_ObjectHideFlags: 0
@@ -15976,7 +15976,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16230,7 +16230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &474993407
 GameObject:
   m_ObjectHideFlags: 0
@@ -16814,7 +16814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &487522971
 GameObject:
   m_ObjectHideFlags: 0
@@ -17139,7 +17139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &495296710
 GameObject:
   m_ObjectHideFlags: 0
@@ -17534,6 +17534,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9093466307009011029, guid: 05d6321536b652349a30dcb8744214d8, type: 3}
+      propertyPath: MyAction
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9093466307009011029, guid: 05d6321536b652349a30dcb8744214d8, type: 3}
+      propertyPath: EventName
+      value: life
+      objectReference: {fileID: 0}
+    - target: {fileID: 9093466307009011029, guid: 05d6321536b652349a30dcb8744214d8, type: 3}
+      propertyPath: EventAmount
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 9093466307180933858, guid: 05d6321536b652349a30dcb8744214d8, type: 3}
+      propertyPath: MyAction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9093466307229015149, guid: 05d6321536b652349a30dcb8744214d8, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -17782,7 +17798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &515322232
 GameObject:
   m_ObjectHideFlags: 0
@@ -18374,7 +18390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &537305234
 GameObject:
   m_ObjectHideFlags: 0
@@ -18584,7 +18600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &542138560
 GameObject:
   m_ObjectHideFlags: 0
@@ -18655,7 +18671,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18712,7 +18728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &542936552
 GameObject:
   m_ObjectHideFlags: 0
@@ -18878,7 +18894,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -19709,7 +19725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &568325714
 GameObject:
   m_ObjectHideFlags: 0
@@ -21119,7 +21135,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -21491,7 +21507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &615155164
 GameObject:
   m_ObjectHideFlags: 0
@@ -21701,7 +21717,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &619147023
 GameObject:
   m_ObjectHideFlags: 0
@@ -21783,7 +21799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &619763832
 GameObject:
   m_ObjectHideFlags: 0
@@ -22177,7 +22193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &626561141
 GameObject:
   m_ObjectHideFlags: 0
@@ -22478,7 +22494,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -22724,7 +22740,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -23325,7 +23341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &642540562
 GameObject:
   m_ObjectHideFlags: 0
@@ -23453,7 +23469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &648948520
 GameObject:
   m_ObjectHideFlags: 0
@@ -24113,7 +24129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &667069225
 GameObject:
   m_ObjectHideFlags: 0
@@ -24241,7 +24257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &670933565
 GameObject:
   m_ObjectHideFlags: 0
@@ -24333,7 +24349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &674770544
 GameObject:
   m_ObjectHideFlags: 0
@@ -24494,7 +24510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &678409681
 GameObject:
   m_ObjectHideFlags: 0
@@ -25156,7 +25172,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -25738,7 +25754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -26495,7 +26511,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -27161,7 +27177,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -28437,7 +28453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &768638764
 GameObject:
   m_ObjectHideFlags: 0
@@ -28811,7 +28827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &778203877
 GameObject:
   m_ObjectHideFlags: 0
@@ -29275,6 +29291,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1648762066027775107, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: EventAmount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242376591006169379, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+      propertyPath: MyAction
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5602044077629623247, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
@@ -29654,7 +29674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &807776791
 GameObject:
   m_ObjectHideFlags: 0
@@ -30730,7 +30750,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -32149,7 +32169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &886847710
 GameObject:
   m_ObjectHideFlags: 0
@@ -32359,7 +32379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &892120016
 GameObject:
   m_ObjectHideFlags: 0
@@ -32405,7 +32425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &892318697
 GameObject:
   m_ObjectHideFlags: 0
@@ -32476,7 +32496,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -32615,7 +32635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &903066651
 GameObject:
   m_ObjectHideFlags: 0
@@ -32686,7 +32706,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -32743,7 +32763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &908613283
 GameObject:
   m_ObjectHideFlags: 0
@@ -33258,7 +33278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &920538450
 GameObject:
   m_ObjectHideFlags: 0
@@ -34846,7 +34866,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -35289,7 +35309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &992989646
 GameObject:
   m_ObjectHideFlags: 0
@@ -35335,7 +35355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &993932081
 GameObject:
   m_ObjectHideFlags: 0
@@ -36672,7 +36692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1017058722
 GameObject:
   m_ObjectHideFlags: 0
@@ -37528,7 +37548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1034975299
 GameObject:
   m_ObjectHideFlags: 0
@@ -38400,7 +38420,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -38539,7 +38559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1059189645
 GameObject:
   m_ObjectHideFlags: 0
@@ -38903,7 +38923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1069573195
 GameObject:
   m_ObjectHideFlags: 0
@@ -39241,7 +39261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1077611482
 GameObject:
   m_ObjectHideFlags: 0
@@ -40101,7 +40121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1104404816
 GameObject:
   m_ObjectHideFlags: 0
@@ -40229,7 +40249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1110301859
 GameObject:
   m_ObjectHideFlags: 0
@@ -41141,7 +41161,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -41293,7 +41313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1138785680
 GameObject:
   m_ObjectHideFlags: 0
@@ -41615,7 +41635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1155932260
 GameObject:
   m_ObjectHideFlags: 0
@@ -42122,7 +42142,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -42261,7 +42281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1170558178
 GameObject:
   m_ObjectHideFlags: 0
@@ -42904,7 +42924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1181761101
 GameObject:
   m_ObjectHideFlags: 0
@@ -43229,7 +43249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1186070779
 GameObject:
   m_ObjectHideFlags: 0
@@ -43300,7 +43320,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -44915,7 +44935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1244322824
 GameObject:
   m_ObjectHideFlags: 0
@@ -45109,7 +45129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1245201341
 GameObject:
   m_ObjectHideFlags: 0
@@ -45365,7 +45385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1255150764
 GameObject:
   m_ObjectHideFlags: 0
@@ -45411,7 +45431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1259857459
 GameObject:
   m_ObjectHideFlags: 0
@@ -46871,7 +46891,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1293474927
 GameObject:
   m_ObjectHideFlags: 0
@@ -47139,7 +47159,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -47921,7 +47941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1323540616
 GameObject:
   m_ObjectHideFlags: 0
@@ -48367,7 +48387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1349213479
 GameObject:
   m_ObjectHideFlags: 0
@@ -48623,7 +48643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1357831005
 GameObject:
   m_ObjectHideFlags: 0
@@ -49295,7 +49315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1390769866
 GameObject:
   m_ObjectHideFlags: 0
@@ -49538,7 +49558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1395108970
 GameObject:
   m_ObjectHideFlags: 0
@@ -49856,7 +49876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1402293238
 GameObject:
   m_ObjectHideFlags: 0
@@ -50276,7 +50296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1407841590
 GameObject:
   m_ObjectHideFlags: 0
@@ -50322,7 +50342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1408801500
 GameObject:
   m_ObjectHideFlags: 0
@@ -52564,7 +52584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1477920864
 GameObject:
   m_ObjectHideFlags: 0
@@ -52646,7 +52666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1485736140
 GameObject:
   m_ObjectHideFlags: 0
@@ -52807,7 +52827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1487589012
 GameObject:
   m_ObjectHideFlags: 0
@@ -52910,6 +52930,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3124911142773252876, guid: f26351501ca50b142b62f62472145781, type: 3}
+      propertyPath: MyAction
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124911142773252876, guid: f26351501ca50b142b62f62472145781, type: 3}
+      propertyPath: EventName
+      value: life
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124911142773252876, guid: f26351501ca50b142b62f62472145781, type: 3}
+      propertyPath: EventAmount
+      value: -50
+      objectReference: {fileID: 0}
     - target: {fileID: 3124911143413506657, guid: f26351501ca50b142b62f62472145781, type: 3}
       propertyPath: m_Name
       value: ReversedPrincess
@@ -53087,7 +53119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1494918669
 GameObject:
   m_ObjectHideFlags: 0
@@ -53438,7 +53470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1499658012
 GameObject:
   m_ObjectHideFlags: 0
@@ -53907,7 +53939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1507861729
 GameObject:
   m_ObjectHideFlags: 0
@@ -54340,7 +54372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1524229181
 GameObject:
   m_ObjectHideFlags: 0
@@ -54650,7 +54682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1534761839
 GameObject:
   m_ObjectHideFlags: 0
@@ -55213,7 +55245,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -55270,7 +55302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1549718152
 GameObject:
   m_ObjectHideFlags: 0
@@ -55415,6 +55447,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1648762066027775107, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: EventAmount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242376591006169379, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+      propertyPath: MyAction
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5602044077629623247, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
@@ -58059,7 +58095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1607125919
 GameObject:
   m_ObjectHideFlags: 0
@@ -58725,7 +58761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1626292932
 GameObject:
   m_ObjectHideFlags: 0
@@ -60433,7 +60469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1687637698
 GameObject:
   m_ObjectHideFlags: 0
@@ -61683,7 +61719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1726344004
 GameObject:
   m_ObjectHideFlags: 0
@@ -61964,7 +62000,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -62464,7 +62500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1740203624
 GameObject:
   m_ObjectHideFlags: 0
@@ -62510,7 +62546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1746487447
 GameObject:
   m_ObjectHideFlags: 0
@@ -62556,7 +62592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1747351642
 GameObject:
   m_ObjectHideFlags: 0
@@ -62717,7 +62753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1754536886
 GameObject:
   m_ObjectHideFlags: 0
@@ -63114,7 +63150,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -63217,7 +63253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1772172258
 GameObject:
   m_ObjectHideFlags: 0
@@ -64640,7 +64676,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -64697,7 +64733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1800339314
 GameObject:
   m_ObjectHideFlags: 0
@@ -65288,7 +65324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1811945730
 GameObject:
   m_ObjectHideFlags: 0
@@ -65700,7 +65736,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -65879,7 +65915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1823271704
 GameObject:
   m_ObjectHideFlags: 0
@@ -66007,7 +66043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1826019551
 GameObject:
   m_ObjectHideFlags: 0
@@ -66211,7 +66247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1830379001
 GameObject:
   m_ObjectHideFlags: 0
@@ -66257,7 +66293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1834631635
 GameObject:
   m_ObjectHideFlags: 0
@@ -66303,7 +66339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1836642088
 GameObject:
   m_ObjectHideFlags: 0
@@ -66431,7 +66467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1840253835
 GameObject:
   m_ObjectHideFlags: 0
@@ -66900,7 +66936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1848096174
 GameObject:
   m_ObjectHideFlags: 0
@@ -67079,7 +67115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1852475124
 GameObject:
   m_ObjectHideFlags: 0
@@ -67594,7 +67630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1864403764
 GameObject:
   m_ObjectHideFlags: 0
@@ -68001,7 +68037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1879641413
 GameObject:
   m_ObjectHideFlags: 0
@@ -68047,7 +68083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1880036507
 GameObject:
   m_ObjectHideFlags: 0
@@ -68764,7 +68800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1898064840
 GameObject:
   m_ObjectHideFlags: 0
@@ -68930,7 +68966,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -70198,7 +70234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1952313665
 GameObject:
   m_ObjectHideFlags: 0
@@ -70897,7 +70933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1972372959
 GameObject:
   m_ObjectHideFlags: 0
@@ -71261,7 +71297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &1979411987
 GameObject:
   m_ObjectHideFlags: 0
@@ -71591,7 +71627,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -71652,6 +71688,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1648762066027775107, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: EventAmount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242376591006169379, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+      propertyPath: MyAction
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5602044077629623247, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
@@ -72153,7 +72193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &2003406317
 GameObject:
   m_ObjectHideFlags: 0
@@ -72631,7 +72671,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -72865,7 +72905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &2024662948
 GameObject:
   m_ObjectHideFlags: 0
@@ -73925,7 +73965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &2054299446
 GameObject:
   m_ObjectHideFlags: 0
@@ -74148,7 +74188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &2058316529
 GameObject:
   m_ObjectHideFlags: 0
@@ -74787,7 +74827,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 35985b108a5768a4da22c06a238b9f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -76078,6 +76118,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1648762066027775107, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
       propertyPath: EventAmount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242376591006169379, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
+      propertyPath: MyAction
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5602044077629623247, guid: ce76ec36426cea946b3170e29cbb4923, type: 3}
@@ -76901,7 +76945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &2145369936
 GameObject:
   m_ObjectHideFlags: 0
@@ -76947,7 +76991,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyAction: 3
   EventName: life
-  EventAmount: -25
+  EventAmount: 1
 --- !u!1 &2147353476
 GameObject:
   m_ObjectHideFlags: 0
@@ -77037,6 +77081,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9093466307009011029, guid: 05d6321536b652349a30dcb8744214d8, type: 3}
+      propertyPath: MyAction
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9093466307009011029, guid: 05d6321536b652349a30dcb8744214d8, type: 3}
+      propertyPath: EventName
+      value: life
+      objectReference: {fileID: 0}
+    - target: {fileID: 9093466307009011029, guid: 05d6321536b652349a30dcb8744214d8, type: 3}
+      propertyPath: EventAmount
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 9093466307180933858, guid: 05d6321536b652349a30dcb8744214d8, type: 3}
+      propertyPath: MyAction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9093466307229015149, guid: 05d6321536b652349a30dcb8744214d8, type: 3}
       propertyPath: m_RootOrder
       value: 19
