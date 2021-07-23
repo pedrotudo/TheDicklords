@@ -1,5 +1,12 @@
-﻿public class InGameHudPanel : Panel
+﻿using System;
+using UnityEngine;
+
+public class InGameHudPanel : Panel
 {
+    public GameObject FailPanel;
+
+    public static Action OnEndSessionPressed;
+
     public override void Hide()
     {
         if (PanelContent != null)
@@ -10,5 +17,15 @@
     {
         if (PanelContent != null)
             PanelContent.SetActive(true);
+    }
+
+    public void ShowFail()
+    {
+        FailPanel.SetActive(true);
+    }
+
+    public void EndSession()
+    {
+        OnEndSessionPressed?.Invoke();
     }
 }

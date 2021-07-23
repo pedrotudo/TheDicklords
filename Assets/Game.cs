@@ -11,21 +11,16 @@ public class Game : MonoBehaviour
     {
         Debug.Log("Awake Game");
         Instace = this;
-        Player.OnPlayerIsDead += OnPlayerIsDeadBehaviour;
         MainMenuPanel.OnStartPressed += LoadLevel;
+        InGameHudPanel.OnEndSessionPressed += LoadInitialScene;
+
     }
 
     private void OnDestroy()
     {
         Debug.Log("Destroy Game");
-        Player.OnPlayerIsDead -= OnPlayerIsDeadBehaviour;
         MainMenuPanel.OnStartPressed -= LoadLevel;
-    }
-
-    private void OnPlayerIsDeadBehaviour()
-    {
-        Debug.Log("Restart");
-        GameEnd();
+        InGameHudPanel.OnEndSessionPressed -= LoadInitialScene;
     }
 
     private void GameStart()
@@ -41,5 +36,10 @@ public class Game : MonoBehaviour
     private void LoadLevel()
     {
         SceneManager.LoadScene("SampleScene");
+    }
+
+    private void LoadInitialScene()
+    {
+        SceneManager.LoadScene("InitialScene");
     }
 }

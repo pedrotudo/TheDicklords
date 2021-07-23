@@ -3,22 +3,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PanelsHandler : MonoBehaviour
+public class PanelsHandler : Singleton<PanelsHandler>
 {
-    public static PanelsHandler Instance;
     public MainMenuPanel MainMenu;
     public InGameHudPanel InGameHud;
 
-    private void Awake()
+    public override void Awake()
     {
-        Instance = this;
-
         MainMenuPanel.OnStartPressed += OnStartPressedBehaviour;
+        Player.OnPlayerIsDead += OnPlayerIsDeadBehaviour;
     }
 
     private void OnDestroy()
     {
         MainMenuPanel.OnStartPressed -= OnStartPressedBehaviour;
+        Player.OnPlayerIsDead -= OnPlayerIsDeadBehaviour;
     }
 
     private void OnStartPressedBehaviour()
@@ -31,5 +30,10 @@ public class PanelsHandler : MonoBehaviour
     {
         MainMenu.Show();
         InGameHud.Hide();
+    }
+
+    private void OnPlayerIsDeadBehaviour()
+    {
+        InGameHud.ShowFail();
     }
 }
