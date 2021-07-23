@@ -1,34 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Game : MonoBehaviour
+public class Game : Singleton<Game>
 {
-    public static Game Instace;
-
-    private void Awake()
+    public override void Awake()
     {
         Debug.Log("Awake Game");
-        if (Instace == null)
-        {
-            Instace = this;
-        }
-
-        Player.OnPlayerIsDead += OnPlayerIsDeadBehaviour;
+        MainMenuPanel.OnStartPressed += LoadLevel;
+        InGameHudPanel.OnEndSessionPressed += LoadInitialScene;
 
     }
 
     private void OnDestroy()
     {
         Debug.Log("Destroy Game");
-
-        Player.OnPlayerIsDead -= OnPlayerIsDeadBehaviour;
-    }
-
-    private void OnPlayerIsDeadBehaviour()
-    {
-        Debug.Log("Restart");
-        GameEnd();
+        MainMenuPanel.OnStartPressed -= LoadLevel;
+        InGameHudPanel.OnEndSessionPressed -= LoadInitialScene;
     }
 
     private void GameStart()
@@ -39,5 +28,15 @@ public class Game : MonoBehaviour
     private void GameEnd()
     {
         Debug.Log("End game");
+    }
+
+    private void LoadLevel()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+
+    private void LoadInitialScene()
+    {
+        SceneManager.LoadScene("InitialScene");
     }
 }
