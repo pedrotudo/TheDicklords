@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class PlayerModel
@@ -14,15 +15,18 @@ public class Player : MonoBehaviour
     public PlayerModel PlayerModel;
     public int HitPoints => _playerModel.HP;
 
+    public TMP_Text FloatingText;
     public static Action<int> OnPlayerHitpointsChange;
     public static Action OnPlayerIsDead;
     public float speed;
     public Animator Anim;
     public Transform SpineParent;
+    public FloatingText DmgLabel;
 
     private Rigidbody _rb;
     public Vector3 _lastPosition, _direction;
     bool _isMoving;
+
     private bool _isDead;
 
     public void Initalize(PlayerModel playerModel)
@@ -104,6 +108,7 @@ public class Player : MonoBehaviour
     private void HitpointsChange(int delta)
     {
         _playerModel.HP += delta;
+        DmgLabel?.Run(delta);
         OnPlayerHitpointsChange?.Invoke(_playerModel.HP);
     }
 
