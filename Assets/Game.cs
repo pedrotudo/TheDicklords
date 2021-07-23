@@ -9,7 +9,8 @@ public class Game : Singleton<Game>
     {
         Debug.Log("Awake Game");
         MainMenuPanel.OnStartPressed += LoadLevel;
-        InGameHudPanel.OnEndSessionPressed += LoadInitialScene;
+        EndGamePanel.OnSessionRestartPressed += TryAgain;
+        EndGamePanel.OnEndSessionPressed += Quit;
 
     }
 
@@ -17,26 +18,25 @@ public class Game : Singleton<Game>
     {
         Debug.Log("Destroy Game");
         MainMenuPanel.OnStartPressed -= LoadLevel;
-        InGameHudPanel.OnEndSessionPressed -= LoadInitialScene;
-    }
-
-    private void GameStart()
-    {
-        Debug.Log("Start game");
-    }
-
-    private void GameEnd()
-    {
-        Debug.Log("End game");
+        EndGamePanel.OnSessionRestartPressed -= TryAgain;
+        EndGamePanel.OnEndSessionPressed -= Quit;
     }
 
     private void LoadLevel()
     {
+        Debug.Log("Start game");
         SceneManager.LoadScene("SampleScene");
     }
 
-    private void LoadInitialScene()
+    private void Quit()
     {
+        Debug.Log("Quit");
+        Application.Quit();
+    }
+
+    private void TryAgain()
+    {
+        Debug.Log("Try Again");
         SceneManager.LoadScene("InitialScene");
     }
 }

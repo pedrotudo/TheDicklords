@@ -31,7 +31,6 @@ public class EnemyPatrol : MonoBehaviour
 		if (Physics.Raycast(transform.position, _direction, out hit, Mathf.Infinity))
 		{
 			var hitName = hit.transform.gameObject.name;
-			Debug.Log($"hitting {hitName}");
 			if (hitName == HitNameToSpeedUp)
 			{
 				_dash = true;

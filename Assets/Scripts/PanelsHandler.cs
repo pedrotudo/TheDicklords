@@ -7,6 +7,7 @@ public class PanelsHandler : Singleton<PanelsHandler>
 {
     public MainMenuPanel MainMenu;
     public InGameHudPanel InGameHud;
+    public EndGamePanel EndGame;
 
     public override void Awake()
     {
@@ -22,6 +23,7 @@ public class PanelsHandler : Singleton<PanelsHandler>
 
     private void OnStartPressedBehaviour()
     {
+        EndGame.Hide();
         MainMenu.Hide();
         InGameHud.Show();
     }
@@ -30,10 +32,11 @@ public class PanelsHandler : Singleton<PanelsHandler>
     {
         MainMenu.Show();
         InGameHud.Hide();
+        EndGame.Hide();
     }
 
     private void OnPlayerIsDeadBehaviour()
     {
-        InGameHud.ShowFail();
+        EndGame.Show();
     }
 }

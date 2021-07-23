@@ -16,23 +16,42 @@ public class Player : MonoBehaviour
     private Rigidbody _rb;
     public Vector3 _lastPosition, _direction;
     bool _isMoving;
+    private bool _isDead;
+
     private void Awake()
     {
         Debug.Log("Awake Player");
 
         _rb = GetComponent<Rigidbody>();
+
+        _hitPoints = 100;
+        _isDead = false;
+
+        GameEvents.OnCustomEvent += OnCustomEventBehaviour;
         OnPlayerHitpointsChange += CheckHealth;
+    }
+
+    private void OnCustomEventBehaviour(string eventName, string value)
+    {
+        if (string.Equals(eventName, "life"))
+        {
+            HitpointsChange(int.Parse(value));
+        }
     }
 
     private void OnDestroy()
     {
         Debug.Log("Destroy Player");
+        GameEvents.OnCustomEvent -= OnCustomEventBehaviour;
         OnPlayerHitpointsChange -= CheckHealth;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (_isDead)
+            return;
+
         var h = Input.GetAxisRaw("Horizontal");
         var v = Input.GetAxisRaw("Vertical");
         Vector3 velocity = new Vector3(h, 0, v).normalized * speed;
@@ -60,7 +79,6 @@ public class Player : MonoBehaviour
         {
             SpineParent.localScale = new Vector3(-1, 1, 1);
         }
-
         if (_isMoving)
         {
             Anim.Play("walk");
@@ -81,6 +99,8 @@ public class Player : MonoBehaviour
     {
         if (_hitPoints <= 0)
         {
+            Anim.Play("dead");
+            _isDead = true;
             OnPlayerIsDead?.Invoke();
         }
     }
