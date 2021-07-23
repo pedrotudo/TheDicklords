@@ -29,6 +29,7 @@ public class Player : MonoBehaviour
     public void Initalize(PlayerModel playerModel)
     {
         _playerModel = playerModel;
+        OnPlayerHitpointsChange?.Invoke(_playerModel.HP);
     }
 
     private void Awake()
