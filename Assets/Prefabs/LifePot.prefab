@@ -140,8 +140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b61d450c014b9f7468bafa2f1b061483, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enter: {fileID: 0}
-  Exit: {fileID: 0}
+  Enter: {fileID: 2147318037813816722}
+  Exit: {fileID: 2147318036288252264}
   Repeat: 0
   CollObject: {fileID: 0}
 --- !u!33 &2147318038309340833
