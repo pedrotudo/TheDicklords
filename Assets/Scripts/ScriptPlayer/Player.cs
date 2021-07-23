@@ -3,11 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public class PlayerModel
+{
+    public int HP;
+}
+
 public class Player : MonoBehaviour
 {
-    private int _hitPoints;
+    private PlayerModel _playerModel;
+    public PlayerModel PlayerModel;
+    public int HitPoints => _playerModel.HP;
 
-    public static Action OnPlayerHitpointsChange;
+    public static Action<int> OnPlayerHitpointsChange;
     public static Action OnPlayerIsDead;
     public float speed;
     public Animator Anim;
@@ -18,13 +25,17 @@ public class Player : MonoBehaviour
     bool _isMoving;
     private bool _isDead;
 
+    public void Initalize(PlayerModel playerModel)
+    {
+        _playerModel = playerModel;
+    }
+
     private void Awake()
     {
         Debug.Log("Awake Player");
 
         _rb = GetComponent<Rigidbody>();
 
-        _hitPoints = 100;
         _isDead = false;
 
         GameEvents.OnCustomEvent += OnCustomEventBehaviour;
@@ -46,7 +57,7 @@ public class Player : MonoBehaviour
         OnPlayerHitpointsChange -= CheckHealth;
     }
 
-    // Update is called once per frame
+
     void FixedUpdate()
     {
         if (_isDead)
@@ -91,15 +102,16 @@ public class Player : MonoBehaviour
     }
     private void HitpointsChange(int delta)
     {
-        _hitPoints += delta;
-        OnPlayerHitpointsChange?.Invoke();
+        _playerModel.HP += delta;
+        OnPlayerHitpointsChange?.Invoke(_playerModel.HP);
     }
 
-    private void CheckHealth()
+    private void CheckHealth(int currentHp)
     {
-        if (_hitPoints <= 0)
+        if (_playerModel.HP <= 0)
         {
-            Anim.Play("dead");
+            Anim.Play("death");
+            _rb.velocity = Vector3.zero;
             _isDead = true;
             OnPlayerIsDead?.Invoke();
         }
