@@ -99,6 +99,8 @@ public class Player : MonoBehaviour
     }
     private void HitpointsChange(int delta)
     {
+        if (delta < 0)
+            GameEvents.CustomEvent("loselife", "");
         Game.Instance.HP += delta;
         DmgLabel?.Run(delta);
         OnPlayerHitpointsChange?.Invoke(Game.Instance.HP);
