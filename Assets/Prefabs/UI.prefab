@@ -493,7 +493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PanelContent: {fileID: 7141076795581310568}
-  FailPanel: {fileID: 0}
+  FailPanel: {fileID: 4450134402536974928}
 --- !u!1 &4450134402536974928
 GameObject:
   m_ObjectHideFlags: 0
