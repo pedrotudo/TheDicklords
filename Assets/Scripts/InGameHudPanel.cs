@@ -1,11 +1,13 @@
-﻿using System;
+﻿using DG.Tweening;
+using System;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InGameHudPanel : Panel
 {
-    public GameObject FailPanel;
-
-    public static Action OnEndSessionPressed;
+    public Slider HpSlider;
+    public TMP_Text Level;
 
     public override void Hide()
     {
@@ -19,13 +21,25 @@ public class InGameHudPanel : Panel
             PanelContent.SetActive(true);
     }
 
-    public void ShowFail()
+    private void Awake()
     {
-        FailPanel.SetActive(true);
+        Player.OnPlayerHitpointsChange += UpdateSlider;
+        Game.OnLoadScene += UpdateLevelLabel;
     }
 
-    public void EndSession()
+    private void OnDestroy()
     {
-        OnEndSessionPressed?.Invoke();
+        Player.OnPlayerHitpointsChange -= UpdateSlider;
+        Game.OnLoadScene -= UpdateLevelLabel;
+    }
+
+    private void UpdateSlider(int currentHitpoints)
+    {
+        HpSlider.value = currentHitpoints;
+    }
+
+    private void UpdateLevelLabel()
+    {
+        Level.text = $"Stage 0{Game.Instance.Level}";
     }
 }
