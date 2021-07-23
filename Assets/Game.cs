@@ -3,14 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Game : MonoBehaviour
+public class Game : Singleton<Game>
 {
-    public static Game Instace;
-
-    private void Awake()
+    public override void Awake()
     {
         Debug.Log("Awake Game");
-        Instace = this;
         MainMenuPanel.OnStartPressed += LoadLevel;
         InGameHudPanel.OnEndSessionPressed += LoadInitialScene;
 
