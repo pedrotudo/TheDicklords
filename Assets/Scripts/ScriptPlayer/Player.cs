@@ -4,17 +4,9 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class PlayerModel
-{
-    public int HP;
-}
-
 public class Player : MonoBehaviour
 {
     public bool InvertInput = false;
-    private PlayerModel _playerModel;
-    public PlayerModel PlayerModel;
-    public int HitPoints => _playerModel.HP;
 
     public TMP_Text FloatingText;
     public static Action<int> OnPlayerHitpointsChange;
@@ -29,12 +21,6 @@ public class Player : MonoBehaviour
     bool _isMoving;
 
     private bool _isDead;
-
-    public void Initalize(PlayerModel playerModel)
-    {
-        _playerModel = playerModel;
-        OnPlayerHitpointsChange?.Invoke(_playerModel.HP);
-    }
 
     private void Awake()
     {
@@ -113,14 +99,14 @@ public class Player : MonoBehaviour
     }
     private void HitpointsChange(int delta)
     {
-        _playerModel.HP += delta;
+        Game.Instance.HP += delta;
         DmgLabel?.Run(delta);
-        OnPlayerHitpointsChange?.Invoke(_playerModel.HP);
+        OnPlayerHitpointsChange?.Invoke(Game.Instance.HP);
     }
 
     private void CheckHealth(int currentHp)
     {
-        if (_playerModel.HP <= 0)
+        if (Game.Instance.HP <= 0)
         {
             Anim.Play("death");
             _rb.velocity = Vector3.zero;

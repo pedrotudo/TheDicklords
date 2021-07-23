@@ -13,7 +13,7 @@ public class Game : Singleton<Game>
 
     private Player _playerReference;
 
-    private PlayerModel _cachedPlayerModel;
+    public int HP;
 
     public override void Awake()
     {
@@ -22,6 +22,19 @@ public class Game : Singleton<Game>
         EndGamePanel.OnSessionRestartPressed += TryAgain;
         EndGamePanel.OnEndSessionPressed += Quit;
         SceneManager.sceneLoaded += OnLoadSceneBehaviour;
+        GameEvents.OnCustomEvent += CustomEventBehviour;
+    }
+
+    private void CustomEventBehviour(string eventName, string value)
+    {
+        if (!string.Equals(eventName, "win"))
+        {
+            return;
+        }
+
+        int level = int.Parse(value);
+
+        LoadSceneByLevelNumber(level);
     }
 
     private void OnLoadSceneBehaviour(Scene scene, LoadSceneMode loadMode)
@@ -34,13 +47,8 @@ public class Game : Singleton<Game>
         // if level 1 is loaded reset the player
         if (scene.buildIndex == 1)
         {
-            _cachedPlayerModel = new PlayerModel()
-            {
-                HP = 100
-            };
+            HP = 100;
         }
-
-        InitalizeLevel();
     }
 
     private void Start()
@@ -54,17 +62,13 @@ public class Game : Singleton<Game>
         Debug.Log("Destroy Game");
         EndGamePanel.OnSessionRestartPressed -= TryAgain;
         EndGamePanel.OnEndSessionPressed -= Quit;
+        SceneManager.sceneLoaded -= OnLoadSceneBehaviour;
+        GameEvents.OnCustomEvent -= CustomEventBehviour;
     }
 
     private void LoadSceneByLevelNumber(int level)
     {
         _level = level;
-
-        if (level != 1)
-        {
-            // cache the current player model to move it to the nexxt level if needed
-            _cachedPlayerModel = _playerReference.PlayerModel;
-        }
 
         SceneManager.LoadScene(level);
         OnLoadScene?.Invoke();
@@ -80,16 +84,5 @@ public class Game : Singleton<Game>
     {
         Debug.Log("Try Again");
         LoadSceneByLevelNumber(1);
-    }
-
-    private void InitalizeLevel()
-    {
-        _playerReference = FindObjectOfType<Player>();
-        _playerReference.Initalize(_cachedPlayerModel);
-    }
-
-    private void CacheProgression()
-    {
-        _cachedPlayerModel = _playerReference.PlayerModel;
     }
 }
